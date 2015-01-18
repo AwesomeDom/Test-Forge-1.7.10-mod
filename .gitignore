@@ -1,0 +1,49 @@
+#################
+## Eclipse
+#################
+
+/bin/*
+/conf/*
+/docs/*
+/eclipse/*
+/forge/*
+/jars/*
+/lib/*
+/logs/*
+/modsrc/*
+/reobf/*
+/runtime/*
+/temp/*
+LICENSE.txt
+CHANGELOG
+
+*.bat
+*.sh
+*.pydevproject
+.project
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+.gradle/
+gradle/
+gradlew
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# CDT-specific
+.cproject
+
+# PDT-specific
+.buildpath
