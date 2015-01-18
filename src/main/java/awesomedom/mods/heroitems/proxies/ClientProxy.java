@@ -1,4 +1,4 @@
-package AwesomeDom.mods.BeepBoop;
+package awesomedom.mods.heroitems.proxies;
 
 import net.minecraftforge.client.MinecraftForgeClient;
 

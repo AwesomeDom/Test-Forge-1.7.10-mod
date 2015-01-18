@@ -1,4 +1,4 @@
-package AwesomeDom.mods.BeepBoop;
+package awesomedom.mods.heroitems.proxies;
 public class CommonProxy {
 
         // Client stuff
