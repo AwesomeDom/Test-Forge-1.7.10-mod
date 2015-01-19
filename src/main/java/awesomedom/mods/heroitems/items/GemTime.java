@@ -74,7 +74,7 @@ public class GemTime extends Item implements IBauble {
     	    EntityPlayer entityplayer = (EntityPlayer) entity;
     	    entityplayer.capabilities.allowFlying=false;
     	    entityplayer.capabilities.isFlying = false;
-    	    entityplayer.capabilities.setFlySpeed(0.1F);
+    	    entityplayer.capabilities.setFlySpeed(0.05F);
     	    entityplayer.sendPlayerAbilities();
             entity.worldObj.playSoundAtEntity(entity, "random.fizz", 0.1F, 1.3F);
         }
@@ -93,7 +93,7 @@ public class GemTime extends Item implements IBauble {
 	    player.fallDistance=0;
 	    EntityPlayer newplayer = (EntityPlayer) player;
 	    newplayer.capabilities.allowFlying=true;
-	    newplayer.capabilities.setFlySpeed(0.6F);
+	    newplayer.capabilities.setFlySpeed(0.4F);
 	    newplayer.sendPlayerAbilities();
 		
 	}
