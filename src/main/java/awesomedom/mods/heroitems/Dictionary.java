@@ -7,6 +7,10 @@ public class Dictionary {
     
     //Names
     
-    public static final String ITEM_GEM = "itemGem";
-	
+    public static final String GEM_MIND = "gemMind";
+    public static final String GEM_POWER = "gemPower";
+    public static final String GEM_REALITY = "gemReality";
+    public static final String GEM_SOUL = "gemSoul";
+    public static final String GEM_SPACE = "gemSpace";
+    public static final String GEM_TIME = "gemTime";
 }
